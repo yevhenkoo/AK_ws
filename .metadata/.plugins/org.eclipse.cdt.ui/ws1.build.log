@@ -1,0 +1,10 @@
+16:43:29 **** Incremental Build of configuration Debug for project ws1 ****
+make -j12 all 
+arm-none-eabi-size  ws1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6160	     12	   1572	   7744	   1e40	ws1.elf
+Finished building: default.size.stdout
+ 
+
+16:43:29 Build Finished. 0 errors, 0 warnings. (took 202ms)
+
