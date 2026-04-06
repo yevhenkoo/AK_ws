@@ -1,21 +1,49 @@
-23:25:38 **** Incremental Build of configuration Debug for project ws2 ****
+14:45:17 **** Incremental Build of configuration Debug for project ws3 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "ws2.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\3course\AK\workspace\ws2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ws2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: ws2.elf
- 
-arm-none-eabi-size  ws2.elf 
-arm-none-eabi-objdump -h -S ws2.elf  > "ws2.list"
+arm-none-eabi-size  ws3.elf 
    text	   data	    bss	    dec	    hex	filename
-   9528	     12	   1644	  11184	   2bb0	ws2.elf
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
 Finished building: default.size.stdout
  
-Finished building: ws2.list
- 
-23:27:07 **** Incremental Build of configuration Debug for project ws2 ****
+14:45:50 **** Incremental Build of configuration Debug for project ws3 ****
 make -j12 all 
-arm-none-eabi-size  ws2.elf 
+arm-none-eabi-size  ws3.elf 
    text	   data	    bss	    dec	    hex	filename
-   9528	     12	   1644	  11184	   2bb0	ws2.elf
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
+Finished building: default.size.stdout
+ 
+14:53:40 **** Incremental Build of configuration Debug for project ws3 ****
+make -j12 all 
+arm-none-eabi-size  ws3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
+Finished building: default.size.stdout
+ 
+14:53:53 **** Incremental Build of configuration Debug for project ws3 ****
+make -j12 all 
+arm-none-eabi-size  ws3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
+Finished building: default.size.stdout
+ 
+14:55:29 **** Incremental Build of configuration Debug for project ws3 ****
+make -j12 all 
+arm-none-eabi-size  ws3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
+Finished building: default.size.stdout
+ 
+14:56:51 **** Incremental Build of configuration Debug for project ws3 ****
+make -j12 all 
+arm-none-eabi-size  ws3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
+Finished building: default.size.stdout
+ 
+15:01:20 **** Incremental Build of configuration Debug for project ws3 ****
+make -j12 all 
+arm-none-eabi-size  ws3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9612	     12	   1652	  11276	   2c0c	ws3.elf
 Finished building: default.size.stdout
  
